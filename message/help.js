@@ -67,7 +67,12 @@ ${m}[${number += 1}]⊳ ${prefix}delsticker </nama sticker>${m}
 ${m}[${number += 1}]⊳ ${prefix}liststicker${m}
 ${m}[${number += 1}]⊳ ${prefix}sticker </reply/send image>${m}
 ${m}[${number += 1}]⊳ ${prefix}stickerwm </reply/send image>${m}
-${m}[${number += 1}]⊳ ${prefix}stickernowm </reply/send image>${m}
+${m}[${number += 1}]⊳ ${prefix}stickernowm </reply/send image>${m}\n
+t${b}</Downloader>${b}\n
+${m}[${number += 1}]⊳ ${prefix}ytmp4 </link>${m}
+${m}[${number += 1}]⊳ ${prefix}ytmp3 </link>${m}
+${m}[${number += 1}]⊳ ${prefix}tiktok </link>${m}
+${m}[${number += 1}]⊳ ${prefix}pinterest </query>${m}\n
 `
 }
 
