@@ -1244,6 +1244,30 @@ case 'snowm':
 }
 break
 //end sticker
+//downloader
+case 'ytmp4':
+anu = await fetchJson(`https://myselfff.herokuapp.com/docs/downloader/ytmp4?url=${query}`)
+ytmp4t = `*ytmp4*\n*Title:* ${anu.result.title}\n*Source:* ${query}\n*Deskripsi:* ${anu.result.desc}\n*Link download:* ${anu.result.url}`
+ytmp4 = await getBuffer(`${anu.result.url}`)
+nine.sendMessage(from, ytmp4, video, {quoted: mek, caption: ytmp4t})
+break
+case 'facebook':
+anu = await fetchJson(`https://melcanz.com/fb?url=${query}&apikey=NebzwRHs`)
+Facebook = await getBuffer(`${anu.result.data.url}`)
+reply(ytmp3t)
+nine.sendMessage(from, Facebook, video, {quoted: mek})
+break
+case 'tiktok':
+anu = await fetchJson(`https://melcanz.com/tiktok?url=${query}&apikey=NebzwRHs`)
+ini = await getBuffer(anu.videoHD)
+nine.sendMessage(from, ini, video, {quoted: mek, caption: 'nihh kak'})
+break
+case 'pinterest':
+anu = await fetchJson(`https://myselfff.herokuapp.com/docs/downloader/pinterest?query=${query}`)
+ini = await getBuffer(anu.result.list)
+nine.sendMessage(from, ini, image, {quoted: mek, caption: "nihh"})
+break
+//end downloader
 default://by Guntur P
 if (budy.includes(`Assalamualaikum`)) {
 nine.sendMessage(from, 'Waalaikumsalam, tuben dahh salam', text, {quoted: mek})
