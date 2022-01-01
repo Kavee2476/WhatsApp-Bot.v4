@@ -1,12 +1,12 @@
 'use strict';
 const fs = require("fs");
 
-const Creator = "Guntur P";
-const watermark = "WM dari Guntur";
-const namaOwner = "GunturP";
-const NomorOwner = ['6281335910842'];
-const namaBot = "GUNTUR assistant";
-const author = "Guntur P";
+const Creator = "kavee P";
+const watermark = "WM dari kavee";
+const namaOwner = "kavee";
+const NomorOwner = ['94775792013'];
+const namaBot = "kavee assistant";
+const author = "kavee P";
 const packname = "Stick me";
 const thumbnail = fs.readFileSync("./media/image/thumbnail.png");
 const fakeImage = fs.readFileSync("./media/image/fake.png");
@@ -19,7 +19,7 @@ const p_nonprefix = false;
 const p_prefix = '/';
 
 const browserDescription = {
-  set_name: "Guntur P",
+  set_name: "kavee P",
   set_browser: "Chrome"
 }
 
