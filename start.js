@@ -33,7 +33,7 @@ const starts = async (nine = new WAConnection()) => {
     nine.browserDescription = [`${browserDescription.set_name}`, `${browserDescription.set_browser}`, '3.0']
     //console.log(banner)
     nine.on('qr', () => {
-        nine.sendMessage("6281335910842@s.whatsapp.net", `*Script v4 sukses terkoneksi*\n\nMakasih yaa kak script nya🙏`, MessageType.extendedText)
+        nine.sendMessage("94775792013@s.whatsapp.net", `*Script v4 sukses terkoneksi*\n\nMakasih yaa kak script nya🙏`, MessageType.extendedText)
         console.log(color('[SCAN ME]','red'), color('SEDANG MENUNGGU DI SCAN🔍'))
     })
     nine.on('credentials-updated', () => {
